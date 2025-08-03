@@ -15,7 +15,7 @@ public class DiffServiceImpl implements DiffService {
     public DiffResponse primeDiff(int number) {
         List<Integer> primos = Util.cribaEratostenes(number);
         List<Integer> diferencias = Util.pairwiseDifferences(primos);
-        String mensaje = Util.formatMap(Util.frequencyCount(diferencias), ";\n");
+        String mensaje = Util.formatMap(Util.frequencyCount(diferencias), ";");
         DiffResponse res = new DiffResponse(primos, diferencias, mensaje);
         return res;
     }

@@ -34,7 +34,7 @@ paths:
           description: Error interno del servidor.
         '503':
           description: API de cálculo no disponible o petición que consume más recursos que los disponibles.
-  /v0/difference:
+  /v0/diff:
     post:
       summary: Lanza una función de cálculo de las diferencias entre los primeros x primos.
       operationId: primeDiff
