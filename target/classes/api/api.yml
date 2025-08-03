@@ -28,12 +28,28 @@ paths:
                 $ref: '#/components/schemas/PolarResponse'
         '400':
           description: Petición inválida.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '429':
           description: Demasiadas peticiones en poco tiempo.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '500':
           description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '503':
           description: API de cálculo no disponible o petición que consume más recursos que los disponibles.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
   /v0/diff:
     post:
       summary: Lanza una función de cálculo de las diferencias entre los primeros x primos.
@@ -53,12 +69,28 @@ paths:
                 $ref: '#/components/schemas/DiffResponse'
         '400':
           description: Petición inválida.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '429':
           description: Demasiadas peticiones en poco tiempo.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '500':
           description: Error interno del servidor.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
         '503':
           description: API de cálculo no disponible o petición que consume más recursos que los disponibles.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
 
 components:
   schemas:
@@ -103,3 +135,19 @@ components:
             type: number
         mensaje:
           type: string
+    
+    ErrorResponse:
+      type: object
+      required:
+        - code
+        - status
+        - message
+      properties:
+        code:
+          type: number
+        status:
+          type: string
+        message:
+          type: string
+        timestamp:
+          type: number
