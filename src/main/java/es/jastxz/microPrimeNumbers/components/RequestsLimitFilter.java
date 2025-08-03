@@ -22,9 +22,10 @@ public class RequestsLimitFilter implements Filter {
     private static final int MAX_REQUESTS_GLOBAL_PER_MINUTE = 10;
     private static final int MAX_REQUESTS_USER_PER_MINUTE = 2;
     private static final long TIME_WINDOW_MILLIS = 60_000; // 1 minuto
+    private static final long GLOBAL_ID = 1L; // ID fijo para el contador global
 
-    private GlobalRequestRepo globalRequestRepo;
-    private UserRequestRepo userRequestRepo;
+    private final GlobalRequestRepo globalRequestRepo;
+    private final UserRequestRepo userRequestRepo;
 
     public RequestsLimitFilter(GlobalRequestRepo globalRequestRepo, UserRequestRepo userRequestRepo) {
         this.globalRequestRepo = globalRequestRepo;
@@ -35,46 +36,78 @@ public class RequestsLimitFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
         String clientId = request.getRemoteAddr(); // Obtener IP del cliente
-        
-        // Inicializamos la entidad global
-        List<GlobalRequest> globalList = globalRequestRepo.findAll();
-        GlobalRequest globalLog = globalList.isEmpty() ? new GlobalRequest() : globalList.getFirst();
-        
-        // Inicializamos la entidad del usuario
-        UserRequest userLog = userRequestRepo.findById(clientId).orElse(new UserRequest());
-
-        // Inicializamos el tiempo local
         long currentTime = System.currentTimeMillis();
-
-        // Revisamos el tiempo tanto para control global como de usuario
-        boolean globalTimeExpired = globalLog.getLastRequestTimestamp() == 0 || currentTime - globalLog.getLastRequestTimestamp() > TIME_WINDOW_MILLIS;
-        boolean userTimeExpired = userLog.getLastRequestTimestamp() == 0 || currentTime - userLog.getLastRequestTimestamp() > TIME_WINDOW_MILLIS;
         
-        // Reiniciar contador si la ventana de tiempo ha expirado
-        if (globalTimeExpired && userTimeExpired) {
-            globalLog.setRequestCount(1);
+        // Obtener o crear entidad global con ID fijo
+        GlobalRequest globalLog = globalRequestRepo.findById(GLOBAL_ID)
+            .orElse(createNewGlobalRequest());
+        
+        // Obtener o crear entidad del usuario
+        UserRequest userLog = userRequestRepo.findById(clientId)
+            .orElse(createNewUserRequest(clientId));
+
+        // Verificar y resetear contadores si la ventana de tiempo ha expirado
+        if (isTimeWindowExpired(globalLog.getLastRequestTimestamp(), currentTime)) {
+            globalLog.setRequestCount(0);
             globalLog.setLastRequestTimestamp(currentTime);
-            userLog.setRequestCount(1);
+        }
+        
+        if (isTimeWindowExpired(userLog.getLastRequestTimestamp(), currentTime)) {
+            userLog.setRequestCount(0);
             userLog.setLastRequestTimestamp(currentTime);
-        } else {
-            // Incrementar contadores
-            globalLog.setRequestCount(globalLog.getRequestCount() + 1);
-            userLog.setRequestCount(userLog.getRequestCount() + 1);
         }
 
-        boolean globalRequestReached = globalLog.getRequestCount() > MAX_REQUESTS_GLOBAL_PER_MINUTE;
-        boolean userRequestReached = userLog.getRequestCount() > MAX_REQUESTS_USER_PER_MINUTE;
-        if (globalRequestReached || userRequestReached) {
-            ((HttpServletResponse) response).setStatus(429); // Too Many Requests
-            response.getWriter().write("Rate limit exceeded. Try again later.");
+        // Incrementar contadores
+        globalLog.setRequestCount(globalLog.getRequestCount() + 1);
+        userLog.setRequestCount(userLog.getRequestCount() + 1);
+        
+        // Actualizar timestamps
+        globalLog.setLastRequestTimestamp(currentTime);
+        userLog.setLastRequestTimestamp(currentTime);
+
+        // Verificar límites
+        if (globalLog.getRequestCount() > MAX_REQUESTS_GLOBAL_PER_MINUTE) {
+            sendRateLimitResponse(response, "Global rate limit exceeded");
+            return;
+        }
+        
+        if (userLog.getRequestCount() > MAX_REQUESTS_USER_PER_MINUTE) {
+            sendRateLimitResponse(response, "User rate limit exceeded");
             return;
         }
 
-        // Guardar en la base de datos en memoria
+        // Guardar en la base de datos
         globalRequestRepo.save(globalLog);
         userRequestRepo.save(userLog);
 
         // Continuar con la petición
         chain.doFilter(request, response);
+    }
+    
+    private boolean isTimeWindowExpired(long lastRequestTime, long currentTime) {
+        return lastRequestTime == 0 || (currentTime - lastRequestTime) > TIME_WINDOW_MILLIS;
+    }
+    
+    private GlobalRequest createNewGlobalRequest() {
+        GlobalRequest global = new GlobalRequest();
+        global.setId(GLOBAL_ID);
+        global.setRequestCount(0);
+        global.setLastRequestTimestamp(0);
+        return global;
+    }
+    
+    private UserRequest createNewUserRequest(String clientId) {
+        UserRequest user = new UserRequest();
+        user.setClientId(clientId);
+        user.setRequestCount(0);
+        user.setLastRequestTimestamp(0);
+        return user;
+    }
+    
+    private void sendRateLimitResponse(ServletResponse response, String message) throws IOException {
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        httpResponse.setStatus(429); // Too Many Requests
+        httpResponse.setContentType("application/json");
+        httpResponse.getWriter().write("{\"error\": \"" + message + "\", \"code\": 429}");
     }
 }

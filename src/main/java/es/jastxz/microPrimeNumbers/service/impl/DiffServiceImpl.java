@@ -2,10 +2,13 @@ package es.jastxz.microPrimeNumbers.service.impl;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import es.jastxz.microPrimeNumbers.model.DiffResponse;
 import es.jastxz.microPrimeNumbers.service.DiffService;
 import es.jastxz.microPrimeNumbers.util.Util;
 
+@Service
 public class DiffServiceImpl implements DiffService {
 
     @Override
