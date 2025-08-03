@@ -11,7 +11,7 @@ import es.jastxz.microPrimeNumbers.model.Point;
 
 public class Util {
 
-    public final static int MAX_NUMBER_LIMIT = 100;
+    public final static int MAX_NUMBER_LIMIT = 500000;
 
     // CribaEratostenes genera una lista de números primos hasta el límite dado n
     public static List<Integer> cribaEratostenes(int n) {

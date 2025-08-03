@@ -14,14 +14,13 @@ import es.jastxz.microPrimeNumbers.repo.GlobalRequestRepo;
 import es.jastxz.microPrimeNumbers.repo.UserRequestRepo;
 
 import java.io.IOException;
-import java.util.List;
 
 @Component
 public class RequestsLimitFilter implements Filter {
 
-    private static final int MAX_REQUESTS_GLOBAL_PER_MINUTE = 10;
+    private static final int MAX_REQUESTS_GLOBAL_PER_MINUTE = 15;
     private static final int MAX_REQUESTS_USER_PER_MINUTE = 2;
-    private static final long TIME_WINDOW_MILLIS = 60_000; // 1 minuto
+    private static final long TIME_WINDOW_MILLIS = 10_000; // 10 segundos
     private static final long GLOBAL_ID = 1L; // ID fijo para el contador global
 
     private final GlobalRequestRepo globalRequestRepo;
