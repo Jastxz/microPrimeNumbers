@@ -5,6 +5,7 @@ Un microservicio Spring Boot que proporciona herramientas computacionales para t
 ## 📋 Descripción
 
 Este microservicio ofrece dos endpoints principales para realizar cálculos con números primos:
+
 - **Diferencias entre primos**: Calcula las diferencias consecutivas entre números primos
 - **Coordenadas polares**: Genera coordenadas polares basadas en números primos
 
@@ -28,6 +29,7 @@ Este microservicio ofrece dos endpoints principales para realizar cálculos con 
 ## 📦 Instalación
 
 ### Prerrequisitos
+
 - Java 21 o superior
 - Maven 3.6+
 
@@ -35,7 +37,7 @@ Este microservicio ofrece dos endpoints principales para realizar cálculos con 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/usuario/microPrimeNumbers.git
+git clone https://github.com/Jastxz/microPrimeNumbers.git
 cd microPrimeNumbers
 
 # Compilar y ejecutar
@@ -44,8 +46,8 @@ cd microPrimeNumbers
 # O usando Maven
 mvn spring-boot:run
 ```
-También puedes usar el botón play de cualquier IDE para Java con el que te manejes.
 
+También puedes usar el botón play de cualquier IDE para Java con el que te manejes.
 
 La aplicación estará disponible en `http://localhost:8080`
 
@@ -56,6 +58,7 @@ La aplicación estará disponible en `http://localhost:8080`
 Calcula las diferencias consecutivas entre los primeros N números primos.
 
 **Request:**
+
 ```json
 {
   "number": 100
@@ -63,6 +66,7 @@ Calcula las diferencias consecutivas entre los primeros N números primos.
 ```
 
 **Response:**
+
 ```json
 {
   "primos": [2, 3, 5, 7, 11, 13, ...],
@@ -76,6 +80,7 @@ Calcula las diferencias consecutivas entre los primeros N números primos.
 Genera coordenadas polares basadas en los primeros N números primos.
 
 **Request:**
+
 ```json
 {
   "number": 50
@@ -83,24 +88,25 @@ Genera coordenadas polares basadas en los primeros N números primos.
 ```
 
 **Response:**
+
 ```json
 {
   "puntos": [
-    {"axisX": 2, "axisY": 2},
-    {"axisX": 3, "axisY": 3},
-    {"axisX": 5, "axisY": 5}
+    { "axisX": 2, "axisY": 2 },
+    { "axisX": 3, "axisY": 3 },
+    { "axisX": 5, "axisY": 5 }
   ]
 }
 ```
 
 ## ⚡ Límites y Restricciones
 
-| Parámetro | Límite |
-|-----------|--------|
-| **Número máximo** | 500,000 |
-| **Rate limit por usuario** | 2 requests/10 segundos |
-| **Rate limit global** | 15 requests/10 segundos |
-| **Tiempo de respuesta objetivo** | < 500ms |
+| Parámetro                        | Límite                  |
+| -------------------------------- | ----------------------- |
+| **Número máximo**                | 500,000                 |
+| **Rate limit por usuario**       | 2 requests/10 segundos  |
+| **Rate limit global**            | 15 requests/10 segundos |
+| **Tiempo de respuesta objetivo** | < 500ms                 |
 
 ## 🧪 Testing
 
@@ -113,17 +119,18 @@ mvn test -Dtest=PrimeApplicationTests
 # Ejecutar desde main
 java -cp target/classes es.jastxz.microPrimeNumbers.PrimeApplicationTests
 ```
+
 También puedes usar el botón play de cualquier IDE para Java con el que te manejes.
 
 ## 📊 Códigos de Estado
 
-| Código | Descripción |
-|--------|-------------|
-| **200** | Operación exitosa |
+| Código  | Descripción                    |
+| ------- | ------------------------------ |
+| **200** | Operación exitosa              |
 | **400** | Petición inválida (number = 0) |
-| **429** | Rate limit excedido |
-| **500** | Error interno del servidor |
-| **503** | Límite computacional excedido |
+| **429** | Rate limit excedido            |
+| **500** | Error interno del servidor     |
+| **503** | Límite computacional excedido  |
 
 ## 🏗️ Estructura del Proyecto
 
@@ -166,38 +173,41 @@ spring:
 
 ### Variables de entorno
 
-| Variable | Descripción | Valor por defecto |
-|----------|-------------|-------------------|
-| `MAX_NUMBER_LIMIT` | Límite máximo de cálculo | 500000 |
-| `MAX_REQUESTS_USER_PER_MINUTE` | Rate limit por usuario | 2 |
-| `MAX_REQUESTS_GLOBAL_PER_MINUTE` | Rate limit global | 15 |
+| Variable                         | Descripción              | Valor por defecto |
+| -------------------------------- | ------------------------ | ----------------- |
+| `MAX_NUMBER_LIMIT`               | Límite máximo de cálculo | 500000            |
+| `MAX_REQUESTS_USER_PER_MINUTE`   | Rate limit por usuario   | 2                 |
+| `MAX_REQUESTS_GLOBAL_PER_MINUTE` | Rate limit global        | 15                |
 
 ## 📈 Rendimiento
 
 ### Benchmarks típicos (Intel i5-8250U)
 
-| Número | Tiempo (ms) | Primos encontrados |
-|--------|-------------|-------------------|
-| 1,000 | ~0.4ms | 168 |
-| 10,000 | ~3ms | 1,229 |
-| 100,000 | ~15ms | 9,592 |
-| 500,000 | ~75ms | 41,538 |
+| Número  | Tiempo (ms) | Primos encontrados |
+| ------- | ----------- | ------------------ |
+| 1,000   | ~0.4ms      | 168                |
+| 10,000  | ~3ms        | 1,229              |
+| 100,000 | ~15ms       | 9,592              |
+| 500,000 | ~75ms       | 41,538             |
 
 ## 🐛 Troubleshooting
 
 ### Errores comunes
 
 **Error: "No default constructor for entity"**
+
 ```bash
 # Solución: Verificar que las entidades tengan constructor sin parámetros
 ```
 
 **Error: "Rate limit exceeded"**
+
 ```bash
 # Esperar 10 segundos o usar diferentes IPs
 ```
 
 **Error: "Service Unavailable"**
+
 ```bash
 # Reducir el número límite para primos en la petición (< 500,000)
 ```
@@ -214,6 +224,7 @@ spring:
 ### Modificar límites
 
 Editar constantes en:
+
 - `Util.MAX_NUMBER_LIMIT` (límite computacional)
 - `RequestsLimitFilter` (rate limiting)
 
