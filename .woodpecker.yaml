@@ -27,9 +27,9 @@ steps:
     image: docker:27-cli
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /srv/servicios:/srv/servicios
+      - /srv/serviciosjavi:/srv/serviciosjavi
     commands:
-      - ls /srv/servicios/microprimenumbers
-      - cd /srv/servicios/microprimenumbers
+      - ls /srv/serviciosjavi/microprimenumbers
+      - cd /srv/serviciosjavi/microprimenumbers
       - docker compose pull
       - docker compose up -d
