@@ -29,7 +29,6 @@ steps:
       - /var/run/docker.sock:/var/run/docker.sock
       - /srv/serviciosjavi:/srv/serviciosjavi
     commands:
-      - ls /srv/serviciosjavi/microprimenumbers
       - cd /srv/serviciosjavi/microprimenumbers
       - docker compose pull
       - docker compose up -d
