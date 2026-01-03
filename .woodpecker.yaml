@@ -18,8 +18,8 @@ steps:
       TOKEN:
         from_secret: GHCR_TOKEN
     commands:
-      - export IMAGE="ghcr.io/${USERNAME}/microprimenumbers:latest"
-      - echo "$TOKEN" | docker login ghcr.io -u "$USERNAME" --password-stdin
+      - export IMAGE="ghcr.io/$${USERNAME}/microprimenumbers:latest"
+      - echo "$${TOKEN}" | docker login ghcr.io -u "$${USERNAME}" --password-stdin
       - docker build -t "$IMAGE" .
       - docker push "$IMAGE"
 
