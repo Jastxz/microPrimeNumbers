@@ -29,6 +29,8 @@ steps:
       - /var/run/docker.sock:/var/run/docker.sock
       - /srv/servicios/microprimenumbers:/srv/microprimenumbers
     commands:
+      - ls
+      - ls /srv
       - ls /srv/microprimenumbers
       - cd /srv/microprimenumbers
       - docker compose pull
