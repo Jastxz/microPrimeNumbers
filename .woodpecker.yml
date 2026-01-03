@@ -1,0 +1,35 @@
+when:
+  branch: main
+  event: [push, pull_request]
+
+steps:
+  maven_build:
+    image: maven:3.9.11-amazoncorretto-24-al2023
+    commands:
+      - ./mvnw -B -ntp clean test
+      - ./mvnw -B -ntp clean package
+
+  build_push_image:
+    image: docker:27-cli
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      GHCR_USERNAME:
+        from_secret: GHCR_USERNAME
+      GHCR_TOKEN:
+        from_secret: GHCR_TOKEN
+    commands:
+      - export IMAGE="ghcr.io/${GHCR_USERNAME}/microprimenumbers:latest"
+      - echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USERNAME" --password-stdin
+      - docker build -t "$IMAGE" .
+      - docker push "$IMAGE"
+
+  deploy:
+    image: docker:27-cli
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /srv/servicios/microprimenumbers:/srv/microprimenumbers
+    commands:
+      - cd /srv/microprimenumbers
+      - docker compose pull
+      - docker compose up -d
