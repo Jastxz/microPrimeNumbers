@@ -6,8 +6,8 @@ steps:
   maven_build:
     image: maven:3.9.11-amazoncorretto-24-al2023
     commands:
-      - ./mvnw -B -ntp clean test
-      - ./mvnw -B -ntp clean package
+      - mvn -B -ntp clean test
+      - mvn -B -ntp clean package
 
   build_push_image:
     image: docker:27-cli

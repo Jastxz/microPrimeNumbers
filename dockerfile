@@ -5,10 +5,10 @@ WORKDIR /app
 COPY pom.xml .
 COPY mvnw .
 RUN chmod +x mvnw
-RUN ./mvnw -B -ntp -q dependency:go-offline
+RUN mvn -B -ntp -q dependency:go-offline
 
 COPY . .
-RUN ./mvnw -B -ntp clean package -DskipTests
+RUN mvn -B -ntp clean package -DskipTests
 
 # ---- Runtime ----
 FROM eclipse-temurin:21-jre-alpine
