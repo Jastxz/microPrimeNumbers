@@ -28,7 +28,13 @@ steps:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /srv/serviciosjavi:/srv/serviciosjavi
+    environment:
+      USERNAME:
+        from_secret: GHCR_USERNAME
+      TOKEN:
+        from_secret: GHCR_TOKEN
     commands:
       - cd /srv/serviciosjavi/microprimenumbers
+      - echo "$${TOKEN}" | docker login ghcr.io -u "$${USERNAME}" --password-stdin
       - docker compose pull
       - docker compose up -d
