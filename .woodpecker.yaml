@@ -6,7 +6,6 @@ steps:
   maven_build:
     image: maven:3.9.11-amazoncorretto-24-al2023
     commands:
-      - mvn -B -ntp clean test
       - mvn -B -ntp clean package
 
   build_push_image:
@@ -14,13 +13,13 @@ steps:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      GHCR_USERNAME:
+      USERNAME:
         from_secret: GHCR_USERNAME
-      GHCR_TOKEN:
+      TOKEN:
         from_secret: GHCR_TOKEN
     commands:
-      - export IMAGE="ghcr.io/${GHCR_USERNAME}/microprimenumbers:latest"
-      - echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GHCR_USERNAME" --password-stdin
+      - export IMAGE="ghcr.io/${USERNAME}/microprimenumbers:latest"
+      - echo "$TOKEN" | docker login ghcr.io -u "$USERNAME" --password-stdin
       - docker build -t "$IMAGE" .
       - docker push "$IMAGE"
 

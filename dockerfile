@@ -3,8 +3,6 @@ FROM maven:3.9.11-amazoncorretto-24-al2023 AS builder
 WORKDIR /app
 
 COPY pom.xml .
-COPY mvnw .
-RUN chmod +x mvnw
 RUN mvn -B -ntp -q dependency:go-offline
 
 COPY . .
