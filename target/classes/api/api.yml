@@ -18,38 +18,38 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/CribaRequest'
+              $ref: "#/components/schemas/CribaRequest"
       responses:
-        '200':
+        "200":
           description: Cálculos realizados con éxito.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/PolarResponse'
-        '400':
+                $ref: "#/components/schemas/PolarResponse"
+        "400":
           description: Petición inválida.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '429':
+                $ref: "#/components/schemas/ErrorResponse"
+        "429":
           description: Demasiadas peticiones en poco tiempo.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '500':
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
           description: Error interno del servidor.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '503':
+                $ref: "#/components/schemas/ErrorResponse"
+        "503":
           description: API de cálculo no disponible o petición que consume más recursos que los disponibles.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: "#/components/schemas/ErrorResponse"
   /v0/diff:
     post:
       summary: Lanza una función de cálculo de las diferencias entre los primeros x primos.
@@ -59,38 +59,38 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/CribaRequest'
+              $ref: "#/components/schemas/CribaRequest"
       responses:
-        '200':
+        "200":
           description: Cálculos realizados con éxito.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/DiffResponse'
-        '400':
+                $ref: "#/components/schemas/DiffResponse"
+        "400":
           description: Petición inválida.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '429':
+                $ref: "#/components/schemas/ErrorResponse"
+        "429":
           description: Demasiadas peticiones en poco tiempo.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '500':
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
           description: Error interno del servidor.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-        '503':
+                $ref: "#/components/schemas/ErrorResponse"
+        "503":
           description: API de cálculo no disponible o petición que consume más recursos que los disponibles.
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                $ref: "#/components/schemas/ErrorResponse"
 
 components:
   schemas:
@@ -106,18 +106,8 @@ components:
     PolarResponse:
       type: array
       items:
-        type: object
-        required:
-          - axisX
-          - axisY
-      properties:
-        axisX:
-          type: number
-          example: 5
-        axisY:
-          type: number
-          example: 7
-    
+        $ref: "#/components/schemas/Point"
+
     DiffResponse:
       type: object
       required:
@@ -135,7 +125,42 @@ components:
             type: number
         mensaje:
           type: string
-    
+
+    ChartResponse:
+      type: array
+      items:
+        type: object
+        required:
+          - primesPoints
+          - gaussPoints
+          - aproxPoints
+        properties:
+          primesPoints:
+            type: array
+            items:
+              $ref: "#/components/schemas/Point"
+          gaussPoints:
+            type: array
+            items:
+              $ref: "#/components/schemas/Point"
+          aproxPoints:
+            type: array
+            items:
+              $ref: "#/components/schemas/Point"
+
+    Point:
+      type: object
+      required:
+        - axisX
+        - axisY
+      properties:
+        axisX:
+          type: number
+          example: 5
+        axisY:
+          type: number
+          example: 7
+
     ErrorResponse:
       type: object
       required:
