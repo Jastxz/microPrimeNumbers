@@ -21,35 +21,8 @@ public class PrimeApplicationTests {
             10, 50, 100, 500, 1000, 5000, 10000, 50000, 100000, 500000, 1000000
     };
 
-    private static final int WARMUP_ITERATIONS = 5;
     private static final int MEASUREMENT_ITERATIONS = 10;
     private static final int CONCURRENT_USERS = 10;
-
-    public static void main(String[] args) {
-        PrimeApplicationTests test = new PrimeApplicationTests();
-        test.runTests();
-    }
-
-    public void runTests() {
-        warmup();
-        testSequentialPerformance();
-        warmup();
-        testConcurrentLoad();
-        warmup();
-        testStressLimit();
-        warmup();
-        testMemoryUsage();
-    }
-
-    @BeforeEach
-    void warmup() {
-        // Calentamiento de JVM
-        System.out.println("Calentando JVM...");
-        for (int i = 0; i < WARMUP_ITERATIONS; i++) {
-            Util.cribaEratostenes(1000);
-        }
-        System.gc(); // Sugerir limpieza de memoria
-    }
 
     @Test
     @DisplayName("Test de rendimiento secuencial - Criba de Eratóstenes")
