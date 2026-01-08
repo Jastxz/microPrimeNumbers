@@ -3,6 +3,8 @@ package es.jastxz.microPrimeNumbers.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import es.jastxz.microPrimeNumbers.model.DiffResponse;
 import es.jastxz.microPrimeNumbers.model.Point;
 import es.jastxz.microPrimeNumbers.model.PointDouble;
@@ -11,6 +13,7 @@ import es.jastxz.microPrimeNumbers.service.PrimesService;
 import es.jastxz.microPrimeNumbers.model.ChartResponse;
 import es.jastxz.microPrimeNumbers.util.Util;
 
+@Service
 public class PrimesServiceImpl implements PrimesService {
     @Override
     public DiffResponse primeDiff(int number) {
