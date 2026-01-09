@@ -1,7 +1,10 @@
 package es.jastxz.microPrimeNumbers;
 
 import es.jastxz.microPrimeNumbers.model.CribaRequest;
+import es.jastxz.microPrimeNumbers.repo.UserRequestRepo;
 import es.jastxz.microPrimeNumbers.util.Util;
+
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +30,15 @@ public class CallsTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @Autowired
+    private UserRequestRepo userRequestRepo;
+
+    @BeforeEach
+    void setUp() {
+        userRequestRepo.deleteAll();
+        ;
+    }
 
     @Test
     @DisplayName("POST /v0/polar - Should return polar coordinates")
