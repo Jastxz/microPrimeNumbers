@@ -33,9 +33,17 @@ public class PrimesServiceImpl implements PrimesService {
 
     @Override
     public ChartResponse chart(int number) {
-        List<Point> puntosPrimos = Util.lista2Puntos(Util.cribaEratostenes(number));
+        List<Integer> primos = Util.cribaEratostenes(number * 10);
+        List<Point> puntosPrimos = new ArrayList<>();
         List<PointDouble> gaussRiemann = new ArrayList<>();
         List<PointDouble> aproxJavier = new ArrayList<>();
+
+        for (int i = 0; i < primos.size(); i++) {
+            puntosPrimos.add(new Point(i, primos.get(i)));
+            if (i == number) {
+                break;
+            }
+        }
 
         for (int i = 1; i <= number; i++) {
             PointDouble p = new PointDouble(i, Util.gaussRiemann(i));
