@@ -17,6 +17,10 @@ spring:
     console:
       enabled: true # Habilita la consola web de H2 (opcional, para inspeccionar datos)
 
+  web:
+    cors:
+      enabled: false
+
 eureka:
   client:
     service-url:
