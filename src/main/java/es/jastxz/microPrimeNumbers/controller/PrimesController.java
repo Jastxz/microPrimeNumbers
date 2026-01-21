@@ -140,4 +140,31 @@ public class PrimesController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(error);
         }
     }
+
+    @PostMapping("/inverse-constant")
+    public ResponseEntity<?> analyzeInverseConstant(@RequestBody CribaRequest request) {
+        try {
+            if (request.getNumber() == 0) {
+                ErrorResponse error = new ErrorResponse(400, "Bad Request", "Petición mal formulada");
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
+            }
+
+            int number = Math.abs(request.getNumber());
+
+            // Limit strict for this heavy calculation
+            if (number > 2000) {
+                ErrorResponse error = new ErrorResponse(503, "Service Unavailable",
+                        "El límite para este cálculo es 2000");
+                return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(error);
+            }
+
+            es.jastxz.microPrimeNumbers.model.InverseConstantResponse response = service.analyzeInverseConstant(number);
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            ErrorResponse error = new ErrorResponse(500, "Internal Server Error",
+                    "Error interno del servidor: " + e.getMessage());
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(error);
+        }
+    }
 }
