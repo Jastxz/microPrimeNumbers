@@ -39,7 +39,7 @@ logging:
     file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
   file:
     name: logs/microprimes.log
-    max-size: 100MB
+    max-size: 10MB
     max-history: 30
 
 # Configuración del servidor
@@ -69,4 +69,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,gateway
+        include: health,info

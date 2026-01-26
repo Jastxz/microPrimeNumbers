@@ -10,7 +10,6 @@ spring:
     username: sa
     password: ""
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
   h2:
@@ -33,4 +32,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,gateway
+        include: health,info
