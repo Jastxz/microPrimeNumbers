@@ -44,7 +44,7 @@ logging:
 
 # Configuración del servidor
 server:
-  port: 0
+  port: 5555
   compression:
     enabled: true
   http2:

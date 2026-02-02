@@ -19,5 +19,5 @@ COPY --from=builder /app/target/*.jar /app/app.jar
 RUN chown spring:spring /app/app.jar
 USER spring:spring
 
-EXPOSE 8080
+EXPOSE 5555
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
