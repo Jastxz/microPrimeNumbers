@@ -5,6 +5,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 
@@ -34,7 +35,8 @@ public class RequestsLimitFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
-        String clientId = request.getRemoteAddr(); // Obtener IP del cliente
+        HttpServletRequest httpRequest = (HttpServletRequest) request;
+        String clientId = getClientIp(httpRequest);
         long currentTime = System.currentTimeMillis();
         
         // Obtener o crear entidad global con ID fijo
@@ -103,6 +105,20 @@ public class RequestsLimitFilter implements Filter {
         return user;
     }
     
+    private String getClientIp(HttpServletRequest request) {
+        String ip = request.getHeader("X-Forwarded-For");
+        if (ip == null || ip.isEmpty()) {
+            ip = request.getHeader("X-Real-IP");
+        }
+        if (ip == null || ip.isEmpty()) {
+            ip = request.getRemoteAddr();
+        }
+        if (ip != null && ip.contains(",")) {
+            ip = ip.split(",")[0].trim();
+        }
+        return ip;
+    }
+
     private void sendRateLimitResponse(ServletResponse response, String message) throws IOException {
         HttpServletResponse httpResponse = (HttpServletResponse) response;
         httpResponse.setStatus(429); // Too Many Requests
