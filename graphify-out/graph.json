@@ -1,0 +1,3797 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L1",
+      "id": "vscode_settings",
+      "community": 19,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "java.configuration.updateBuildConfiguration",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "id": "vscode_settings_java_configuration_updatebuildconfiguration",
+      "community": 19,
+      "norm_label": "java.configuration.updatebuildconfiguration"
+    },
+    {
+      "label": "PrimeToolsApplication.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L1",
+      "id": "microprimenumbers_primetoolsapplication",
+      "community": 7,
+      "norm_label": "primetoolsapplication.java"
+    },
+    {
+      "label": "PrimeToolsApplication",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L6",
+      "id": "microprimenumbers_primetoolsapplication_primetoolsapplication",
+      "community": 7,
+      "norm_label": "primetoolsapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L9",
+      "id": "microprimenumbers_primetoolsapplication_primetoolsapplication_main",
+      "community": 7,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L9",
+      "id": "src_main_java_es_jastxz_microprimenumbers_primetoolsapplication_java_string",
+      "community": 7,
+      "norm_label": "string"
+    },
+    {
+      "label": "RequestsLimitFilter.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L1",
+      "id": "components_requestslimitfilter",
+      "community": 1,
+      "norm_label": "requestslimitfilter.java"
+    },
+    {
+      "label": "RequestsLimitFilter",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "id": "components_requestslimitfilter_requestslimitfilter",
+      "community": 1,
+      "norm_label": "requestslimitfilter"
+    },
+    {
+      "label": "Filter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "filter",
+      "community": 1,
+      "norm_label": "filter"
+    },
+    {
+      "label": ".RequestsLimitFilter()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "id": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "community": 1,
+      "norm_label": ".requestslimitfilter()"
+    },
+    {
+      "label": "GlobalRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "id": "globalrequestrepo",
+      "community": 1,
+      "norm_label": "globalrequestrepo"
+    },
+    {
+      "label": "UserRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "id": "userrequestrepo",
+      "community": 1,
+      "norm_label": "userrequestrepo"
+    },
+    {
+      "label": ".doFilter()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "id": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "community": 1,
+      "norm_label": ".dofilter()"
+    },
+    {
+      "label": "ServletRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "id": "servletrequest",
+      "community": 1,
+      "norm_label": "servletrequest"
+    },
+    {
+      "label": "ServletResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "id": "servletresponse",
+      "community": 1,
+      "norm_label": "servletresponse"
+    },
+    {
+      "label": "FilterChain",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "id": "filterchain",
+      "community": 1,
+      "norm_label": "filterchain"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "id": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_override",
+      "community": 1,
+      "norm_label": "override"
+    },
+    {
+      "label": ".isTimeWindowExpired()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "id": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "community": 1,
+      "norm_label": ".istimewindowexpired()"
+    },
+    {
+      "label": ".createNewGlobalRequest()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L92",
+      "id": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "community": 1,
+      "norm_label": ".createnewglobalrequest()"
+    },
+    {
+      "label": "GlobalRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L92",
+      "id": "globalrequest",
+      "community": 1,
+      "norm_label": "globalrequest"
+    },
+    {
+      "label": ".createNewUserRequest()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "id": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "community": 1,
+      "norm_label": ".createnewuserrequest()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "id": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_string",
+      "community": 1,
+      "norm_label": "string"
+    },
+    {
+      "label": "UserRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "id": "userrequest",
+      "community": 1,
+      "norm_label": "userrequest"
+    },
+    {
+      "label": ".getClientIp()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L108",
+      "id": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "community": 1,
+      "norm_label": ".getclientip()"
+    },
+    {
+      "label": "HttpServletRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L108",
+      "id": "httpservletrequest",
+      "community": 1,
+      "norm_label": "httpservletrequest"
+    },
+    {
+      "label": ".sendRateLimitResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L122",
+      "id": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "community": 1,
+      "norm_label": ".sendratelimitresponse()"
+    },
+    {
+      "label": "PrimesController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L1",
+      "id": "controller_primescontroller",
+      "community": 5,
+      "norm_label": "primescontroller.java"
+    },
+    {
+      "label": "PrimesController",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L18",
+      "id": "controller_primescontroller_primescontroller",
+      "community": 5,
+      "norm_label": "primescontroller"
+    },
+    {
+      "label": ".PrimesController()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L23",
+      "id": "controller_primescontroller_primescontroller_primescontroller",
+      "community": 5,
+      "norm_label": ".primescontroller()"
+    },
+    {
+      "label": "PrimesService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L23",
+      "id": "src_main_java_es_jastxz_microprimenumbers_controller_primescontroller_java_primesservice",
+      "community": 5,
+      "norm_label": "primesservice"
+    },
+    {
+      "label": ".polarCoordenates()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "id": "controller_primescontroller_primescontroller_polarcoordenates",
+      "community": 5,
+      "norm_label": ".polarcoordenates()"
+    },
+    {
+      "label": "CribaRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "id": "cribarequest",
+      "community": 5,
+      "norm_label": "cribarequest"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "id": "responseentity",
+      "community": 5,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "id": "postmapping",
+      "community": 5,
+      "norm_label": "postmapping"
+    },
+    {
+      "label": ".primeDiff()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L66",
+      "id": "controller_primescontroller_primescontroller_primediff",
+      "community": 5,
+      "norm_label": ".primediff()"
+    },
+    {
+      "label": ".primeChart()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L105",
+      "id": "controller_primescontroller_primescontroller_primechart",
+      "community": 5,
+      "norm_label": ".primechart()"
+    },
+    {
+      "label": ".analyzeInverseConstant()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L144",
+      "id": "controller_primescontroller_primescontroller_analyzeinverseconstant",
+      "community": 5,
+      "norm_label": ".analyzeinverseconstant()"
+    },
+    {
+      "label": "ChartResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ChartResponse.java",
+      "source_location": "L1",
+      "id": "model_chartresponse",
+      "community": 10,
+      "norm_label": "chartresponse.java"
+    },
+    {
+      "label": "ChartResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ChartResponse.java",
+      "source_location": "L7",
+      "id": "model_chartresponse_chartresponse",
+      "community": 10,
+      "norm_label": "chartresponse"
+    },
+    {
+      "label": "CribaRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/CribaRequest.java",
+      "source_location": "L1",
+      "id": "model_cribarequest",
+      "community": 11,
+      "norm_label": "cribarequest.java"
+    },
+    {
+      "label": "CribaRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/CribaRequest.java",
+      "source_location": "L5",
+      "id": "model_cribarequest_cribarequest",
+      "community": 11,
+      "norm_label": "cribarequest"
+    },
+    {
+      "label": "DiffResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/DiffResponse.java",
+      "source_location": "L1",
+      "id": "model_diffresponse",
+      "community": 12,
+      "norm_label": "diffresponse.java"
+    },
+    {
+      "label": "DiffResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/DiffResponse.java",
+      "source_location": "L7",
+      "id": "model_diffresponse_diffresponse",
+      "community": 12,
+      "norm_label": "diffresponse"
+    },
+    {
+      "label": "ErrorResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L1",
+      "id": "model_errorresponse",
+      "community": 8,
+      "norm_label": "errorresponse.java"
+    },
+    {
+      "label": "ErrorResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L7",
+      "id": "model_errorresponse_errorresponse",
+      "community": 8,
+      "norm_label": "errorresponse"
+    },
+    {
+      "label": ".ErrorResponse()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L17",
+      "id": "model_errorresponse_errorresponse_errorresponse",
+      "community": 8,
+      "norm_label": ".errorresponse()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L17",
+      "id": "src_main_java_es_jastxz_microprimenumbers_model_errorresponse_java_string",
+      "community": 8,
+      "norm_label": "string"
+    },
+    {
+      "label": "GlobalRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/GlobalRequest.java",
+      "source_location": "L1",
+      "id": "model_globalrequest",
+      "community": 13,
+      "norm_label": "globalrequest.java"
+    },
+    {
+      "label": "GlobalRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/GlobalRequest.java",
+      "source_location": "L7",
+      "id": "model_globalrequest_globalrequest",
+      "community": 13,
+      "norm_label": "globalrequest"
+    },
+    {
+      "label": "InverseConstantResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/InverseConstantResponse.java",
+      "source_location": "L1",
+      "id": "model_inverseconstantresponse",
+      "community": 14,
+      "norm_label": "inverseconstantresponse.java"
+    },
+    {
+      "label": "InverseConstantResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/InverseConstantResponse.java",
+      "source_location": "L8",
+      "id": "model_inverseconstantresponse_inverseconstantresponse",
+      "community": 14,
+      "norm_label": "inverseconstantresponse"
+    },
+    {
+      "label": "Point.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/Point.java",
+      "source_location": "L1",
+      "id": "model_point",
+      "community": 15,
+      "norm_label": "point.java"
+    },
+    {
+      "label": "Point",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/Point.java",
+      "source_location": "L5",
+      "id": "model_point_point",
+      "community": 15,
+      "norm_label": "point"
+    },
+    {
+      "label": "PointDouble.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PointDouble.java",
+      "source_location": "L1",
+      "id": "model_pointdouble",
+      "community": 16,
+      "norm_label": "pointdouble.java"
+    },
+    {
+      "label": "PointDouble",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PointDouble.java",
+      "source_location": "L5",
+      "id": "model_pointdouble_pointdouble",
+      "community": 16,
+      "norm_label": "pointdouble"
+    },
+    {
+      "label": "PolarResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PolarResponse.java",
+      "source_location": "L1",
+      "id": "model_polarresponse",
+      "community": 17,
+      "norm_label": "polarresponse.java"
+    },
+    {
+      "label": "PolarResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PolarResponse.java",
+      "source_location": "L7",
+      "id": "model_polarresponse_polarresponse",
+      "community": 17,
+      "norm_label": "polarresponse"
+    },
+    {
+      "label": "UserRequest.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/UserRequest.java",
+      "source_location": "L1",
+      "id": "model_userrequest",
+      "community": 18,
+      "norm_label": "userrequest.java"
+    },
+    {
+      "label": "UserRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/UserRequest.java",
+      "source_location": "L7",
+      "id": "model_userrequest_userrequest",
+      "community": 18,
+      "norm_label": "userrequest"
+    },
+    {
+      "label": "GlobalRequestRepo.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/GlobalRequestRepo.java",
+      "source_location": "L1",
+      "id": "repo_globalrequestrepo",
+      "community": 1,
+      "norm_label": "globalrequestrepo.java"
+    },
+    {
+      "label": "GlobalRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/GlobalRequestRepo.java",
+      "source_location": "L7",
+      "id": "repo_globalrequestrepo_globalrequestrepo",
+      "community": 1,
+      "norm_label": "globalrequestrepo"
+    },
+    {
+      "label": "UserRequestRepo.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/UserRequestRepo.java",
+      "source_location": "L1",
+      "id": "repo_userrequestrepo",
+      "community": 1,
+      "norm_label": "userrequestrepo.java"
+    },
+    {
+      "label": "UserRequestRepo",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/UserRequestRepo.java",
+      "source_location": "L7",
+      "id": "repo_userrequestrepo_userrequestrepo",
+      "community": 1,
+      "norm_label": "userrequestrepo"
+    },
+    {
+      "label": "PrimesService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L1",
+      "id": "service_primesservice",
+      "community": 6,
+      "norm_label": "primesservice.java"
+    },
+    {
+      "label": "PrimesService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L9",
+      "id": "service_primesservice_primesservice",
+      "community": 6,
+      "norm_label": "primesservice"
+    },
+    {
+      "label": ".primeDiff()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L10",
+      "id": "service_primesservice_primesservice_primediff",
+      "community": 6,
+      "norm_label": ".primediff()"
+    },
+    {
+      "label": "DiffResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L10",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_diffresponse",
+      "community": 6,
+      "norm_label": "diffresponse"
+    },
+    {
+      "label": ".polarCoordenates()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L12",
+      "id": "service_primesservice_primesservice_polarcoordenates",
+      "community": 6,
+      "norm_label": ".polarcoordenates()"
+    },
+    {
+      "label": "PolarResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L12",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_polarresponse",
+      "community": 6,
+      "norm_label": "polarresponse"
+    },
+    {
+      "label": ".chart()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L14",
+      "id": "service_primesservice_primesservice_chart",
+      "community": 6,
+      "norm_label": ".chart()"
+    },
+    {
+      "label": "ChartResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L14",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_chartresponse",
+      "community": 6,
+      "norm_label": "chartresponse"
+    },
+    {
+      "label": ".analyzeInverseConstant()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L16",
+      "id": "service_primesservice_primesservice_analyzeinverseconstant",
+      "community": 6,
+      "norm_label": ".analyzeinverseconstant()"
+    },
+    {
+      "label": "InverseConstantResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L16",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_inverseconstantresponse",
+      "community": 6,
+      "norm_label": "inverseconstantresponse"
+    },
+    {
+      "label": "PrimesServiceImpl.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L1",
+      "id": "impl_primesserviceimpl",
+      "community": 0,
+      "norm_label": "primesserviceimpl.java"
+    },
+    {
+      "label": "PrimesServiceImpl",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L19",
+      "id": "impl_primesserviceimpl_primesserviceimpl",
+      "community": 0,
+      "norm_label": "primesserviceimpl"
+    },
+    {
+      "label": "PrimesService",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "primesservice",
+      "community": 0,
+      "norm_label": "primesservice"
+    },
+    {
+      "label": ".primeDiff()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "id": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "community": 0,
+      "norm_label": ".primediff()"
+    },
+    {
+      "label": "DiffResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_diffresponse",
+      "community": 0,
+      "norm_label": "diffresponse"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_override",
+      "community": 0,
+      "norm_label": "override"
+    },
+    {
+      "label": ".polarCoordenates()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L30",
+      "id": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "community": 0,
+      "norm_label": ".polarcoordenates()"
+    },
+    {
+      "label": "PolarResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L30",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_polarresponse",
+      "community": 0,
+      "norm_label": "polarresponse"
+    },
+    {
+      "label": ".chart()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L37",
+      "id": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "community": 0,
+      "norm_label": ".chart()"
+    },
+    {
+      "label": "ChartResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L37",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_chartresponse",
+      "community": 0,
+      "norm_label": "chartresponse"
+    },
+    {
+      "label": ".analyzeInverseConstant()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L65",
+      "id": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "community": 2,
+      "norm_label": ".analyzeinverseconstant()"
+    },
+    {
+      "label": "InverseConstantResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L65",
+      "id": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_inverseconstantresponse",
+      "community": 0,
+      "norm_label": "inverseconstantresponse"
+    },
+    {
+      "label": "AproximacionInverso.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L1",
+      "id": "util_aproximacioninverso",
+      "community": 2,
+      "norm_label": "aproximacioninverso.java"
+    },
+    {
+      "label": "AproximacionInverso",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L7",
+      "id": "util_aproximacioninverso_aproximacioninverso",
+      "community": 2,
+      "norm_label": "aproximacioninverso"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L9",
+      "id": "util_aproximacioninverso_aproximacioninverso_main",
+      "community": 2,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L9",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_string",
+      "community": 2,
+      "norm_label": "string"
+    },
+    {
+      "label": ".getPrimes()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "id": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "community": 2,
+      "norm_label": ".getprimes()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_list",
+      "community": 2,
+      "norm_label": "list"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_integer",
+      "community": 2,
+      "norm_label": "integer"
+    },
+    {
+      "label": ".calculateAn()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "id": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "community": 2,
+      "norm_label": ".calculatean()"
+    },
+    {
+      "label": "BigDecimal",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "id": "bigdecimal",
+      "community": 2,
+      "norm_label": "bigdecimal"
+    },
+    {
+      "label": ".calculateBn()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L73",
+      "id": "util_aproximacioninverso_aproximacioninverso_calculatebn",
+      "community": 2,
+      "norm_label": ".calculatebn()"
+    },
+    {
+      "label": "PrecisionMath.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/PrecisionMath.java",
+      "source_location": "L1",
+      "id": "util_precisionmath",
+      "community": 9,
+      "norm_label": "precisionmath.java"
+    },
+    {
+      "label": "PrecisionMath",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/PrecisionMath.java",
+      "source_location": "L11",
+      "id": "util_precisionmath_precisionmath",
+      "community": 9,
+      "norm_label": "precisionmath"
+    },
+    {
+      "label": ".PrecisionMath()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/PrecisionMath.java",
+      "source_location": "L19",
+      "id": "util_precisionmath_precisionmath_precisionmath",
+      "community": 9,
+      "norm_label": ".precisionmath()"
+    },
+    {
+      "label": "Util.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L1",
+      "id": "util_util",
+      "community": 0,
+      "norm_label": "util.java"
+    },
+    {
+      "label": "Util",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L21",
+      "id": "util_util_util",
+      "community": 0,
+      "norm_label": "util"
+    },
+    {
+      "label": ".cribaEratostenes()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "id": "util_util_util_cribaeratostenes",
+      "community": 0,
+      "norm_label": ".cribaeratostenes()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "community": 0,
+      "norm_label": "list"
+    },
+    {
+      "label": "Integer",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "community": 0,
+      "norm_label": "integer"
+    },
+    {
+      "label": ".lista2Puntos()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "id": "util_util_util_lista2puntos",
+      "community": 0,
+      "norm_label": ".lista2puntos()"
+    },
+    {
+      "label": "Point",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "id": "point",
+      "community": 0,
+      "norm_label": "point"
+    },
+    {
+      "label": ".pairwiseDifferences()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L62",
+      "id": "util_util_util_pairwisedifferences",
+      "community": 0,
+      "norm_label": ".pairwisedifferences()"
+    },
+    {
+      "label": ".frequencyCount()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "id": "util_util_util_frequencycount",
+      "community": 0,
+      "norm_label": ".frequencycount()"
+    },
+    {
+      "label": "HashMap",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "id": "hashmap",
+      "community": 0,
+      "norm_label": "hashmap"
+    },
+    {
+      "label": ".formatMap()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "id": "util_util_util_formatmap",
+      "community": 0,
+      "norm_label": ".formatmap()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "id": "src_main_java_es_jastxz_microprimenumbers_util_util_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": ".gaussRiemann()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L94",
+      "id": "util_util_util_gaussriemann",
+      "community": 0,
+      "norm_label": ".gaussriemann()"
+    },
+    {
+      "label": ".aproxJavier()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L98",
+      "id": "util_util_util_aproxjavier",
+      "community": 0,
+      "norm_label": ".aproxjavier()"
+    },
+    {
+      "label": ".chart()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L102",
+      "id": "util_util_util_chart",
+      "community": 0,
+      "norm_label": ".chart()"
+    },
+    {
+      "label": "CallsTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L1",
+      "id": "microprimenumbers_callstest",
+      "community": 4,
+      "norm_label": "callstest.java"
+    },
+    {
+      "label": "CallsTest",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L24",
+      "id": "microprimenumbers_callstest_callstest",
+      "community": 4,
+      "norm_label": "callstest"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L37",
+      "id": "microprimenumbers_callstest_callstest_setup",
+      "community": 4,
+      "norm_label": ".setup()"
+    },
+    {
+      "label": "BeforeEach",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L37",
+      "id": "beforeeach",
+      "community": 4,
+      "norm_label": "beforeeach"
+    },
+    {
+      "label": ".testPolarCoordinatesSuccess()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "id": "microprimenumbers_callstest_callstest_testpolarcoordinatessuccess",
+      "community": 4,
+      "norm_label": ".testpolarcoordinatessuccess()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "id": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "community": 4,
+      "norm_label": "test"
+    },
+    {
+      "label": "DisplayName",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "id": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "community": 4,
+      "norm_label": "displayname"
+    },
+    {
+      "label": ".testPrimeDiffSuccess()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L57",
+      "id": "microprimenumbers_callstest_callstest_testprimediffsuccess",
+      "community": 4,
+      "norm_label": ".testprimediffsuccess()"
+    },
+    {
+      "label": ".testPrimeChartSuccess()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L71",
+      "id": "microprimenumbers_callstest_callstest_testprimechartsuccess",
+      "community": 4,
+      "norm_label": ".testprimechartsuccess()"
+    },
+    {
+      "label": ".testBadRequest()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L85",
+      "id": "microprimenumbers_callstest_callstest_testbadrequest",
+      "community": 4,
+      "norm_label": ".testbadrequest()"
+    },
+    {
+      "label": ".testServiceUnavailable()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L98",
+      "id": "microprimenumbers_callstest_callstest_testserviceunavailable",
+      "community": 4,
+      "norm_label": ".testserviceunavailable()"
+    },
+    {
+      "label": "PrimeApplicationTests.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L1",
+      "id": "microprimenumbers_primeapplicationtests",
+      "community": 3,
+      "norm_label": "primeapplicationtests.java"
+    },
+    {
+      "label": "PrimeApplicationTests",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L15",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "community": 3,
+      "norm_label": "primeapplicationtests"
+    },
+    {
+      "label": ".testSequentialPerformance()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "community": 3,
+      "norm_label": ".testsequentialperformance()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "id": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "community": 3,
+      "norm_label": "test"
+    },
+    {
+      "label": "DisplayName",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "id": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "community": 3,
+      "norm_label": "displayname"
+    },
+    {
+      "label": ".testConcurrentLoad()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L46",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_testconcurrentload",
+      "community": 3,
+      "norm_label": ".testconcurrentload()"
+    },
+    {
+      "label": ".testStressLimit()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L79",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_teststresslimit",
+      "community": 3,
+      "norm_label": ".teststresslimit()"
+    },
+    {
+      "label": ".testMemoryUsage()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L110",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_testmemoryusage",
+      "community": 3,
+      "norm_label": ".testmemoryusage()"
+    },
+    {
+      "label": ".testPrimesSearch()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L134",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_testprimessearch",
+      "community": 3,
+      "norm_label": ".testprimessearch()"
+    },
+    {
+      "label": ".measureCribaPerformance()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L149",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "community": 3,
+      "norm_label": ".measurecribaperformance()"
+    },
+    {
+      "label": "PerformanceResult",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L149",
+      "id": "performanceresult",
+      "community": 3,
+      "norm_label": "performanceresult"
+    },
+    {
+      "label": ".printResult()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L168",
+      "id": "microprimenumbers_primeapplicationtests_primeapplicationtests_printresult",
+      "community": 3,
+      "norm_label": ".printresult()"
+    },
+    {
+      "label": "PerformanceResult",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L177",
+      "id": "microprimenumbers_primeapplicationtests_performanceresult",
+      "community": 3,
+      "norm_label": "performanceresult"
+    },
+    {
+      "label": ".PerformanceResult()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L182",
+      "id": "microprimenumbers_primeapplicationtests_performanceresult_performanceresult",
+      "community": 3,
+      "norm_label": ".performanceresult()"
+    },
+    {
+      "label": "AproximacionInversoTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L1",
+      "id": "util_aproximacioninversotest",
+      "community": 2,
+      "norm_label": "aproximacioninversotest.java"
+    },
+    {
+      "label": "AproximacionInversoTest",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L9",
+      "id": "util_aproximacioninversotest_aproximacioninversotest",
+      "community": 2,
+      "norm_label": "aproximacioninversotest"
+    },
+    {
+      "label": ".testFirst10Primes()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L11",
+      "id": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "community": 2,
+      "norm_label": ".testfirst10primes()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L11",
+      "id": "src_test_java_es_jastxz_microprimenumbers_util_aproximacioninversotest_java_test",
+      "community": 2,
+      "norm_label": "test"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vscode_settings",
+      "target": "vscode_settings_java_configuration_updatebuildconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "microprimenumbers_primetoolsapplication",
+      "target": "microprimenumbers_primetoolsapplication_primetoolsapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "microprimenumbers_primetoolsapplication_primetoolsapplication",
+      "target": "microprimenumbers_primetoolsapplication_primetoolsapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/PrimeToolsApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "microprimenumbers_primetoolsapplication_primetoolsapplication_main",
+      "target": "src_main_java_es_jastxz_microprimenumbers_primetoolsapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "filterchain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "servletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter",
+      "target": "userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter",
+      "target": "filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "target": "globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_requestslimitfilter",
+      "target": "userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_istimewindowexpired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "filterchain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "servletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "components_requestslimitfilter_requestslimitfilter_dofilter",
+      "target": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "target": "servletresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewglobalrequest",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/GlobalRequestRepo.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "repo_globalrequestrepo",
+      "target": "globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "target": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_createnewuserrequest",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "target": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_sendratelimitresponse",
+      "target": "src_main_java_es_jastxz_microprimenumbers_components_requestslimitfilter_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/UserRequestRepo.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "repo_userrequestrepo",
+      "target": "userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/components/RequestsLimitFilter.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "components_requestslimitfilter_requestslimitfilter_getclientip",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "controller_primescontroller",
+      "target": "controller_primescontroller_primescontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "controller_primescontroller",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "controller_primescontroller",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "controller_primescontroller",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "controller_primescontroller",
+      "target": "src_main_java_es_jastxz_microprimenumbers_controller_primescontroller_java_primesservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "controller_primescontroller_primescontroller",
+      "target": "controller_primescontroller_primescontroller_analyzeinverseconstant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "controller_primescontroller_primescontroller",
+      "target": "controller_primescontroller_primescontroller_polarcoordenates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "controller_primescontroller_primescontroller",
+      "target": "controller_primescontroller_primescontroller_primechart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "controller_primescontroller_primescontroller",
+      "target": "controller_primescontroller_primescontroller_primediff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "controller_primescontroller_primescontroller",
+      "target": "controller_primescontroller_primescontroller_primescontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_primescontroller_primescontroller_primescontroller",
+      "target": "src_main_java_es_jastxz_microprimenumbers_controller_primescontroller_java_primesservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_primescontroller_primescontroller_polarcoordenates",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_primescontroller_primescontroller_polarcoordenates",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_primescontroller_primescontroller_polarcoordenates",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_primescontroller_primescontroller_analyzeinverseconstant",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_primescontroller_primescontroller_primechart",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_primescontroller_primescontroller_primediff",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_primescontroller_primescontroller_analyzeinverseconstant",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_primescontroller_primescontroller_primechart",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_primescontroller_primescontroller_primediff",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L144",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_primescontroller_primescontroller_analyzeinverseconstant",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_primescontroller_primescontroller_primechart",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/controller/PrimesController.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_primescontroller_primescontroller_primediff",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ChartResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_chartresponse",
+      "target": "model_chartresponse_chartresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/CribaRequest.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "model_cribarequest",
+      "target": "model_cribarequest_cribarequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/DiffResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_diffresponse",
+      "target": "model_diffresponse_diffresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_errorresponse",
+      "target": "model_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "model_errorresponse_errorresponse",
+      "target": "model_errorresponse_errorresponse_errorresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/ErrorResponse.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_errorresponse_errorresponse_errorresponse",
+      "target": "src_main_java_es_jastxz_microprimenumbers_model_errorresponse_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/GlobalRequest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_globalrequest",
+      "target": "model_globalrequest_globalrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/InverseConstantResponse.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "model_inverseconstantresponse",
+      "target": "model_inverseconstantresponse_inverseconstantresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/Point.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "model_point",
+      "target": "model_point_point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PointDouble.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "model_pointdouble",
+      "target": "model_pointdouble_pointdouble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/PolarResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_polarresponse",
+      "target": "model_polarresponse_polarresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/model/UserRequest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_userrequest",
+      "target": "model_userrequest_userrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/GlobalRequestRepo.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "repo_globalrequestrepo",
+      "target": "repo_globalrequestrepo_globalrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/repo/UserRequestRepo.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "repo_userrequestrepo",
+      "target": "repo_userrequestrepo_userrequestrepo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "service_primesservice",
+      "target": "service_primesservice_primesservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "service_primesservice",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_chartresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "service_primesservice",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_diffresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "service_primesservice",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_inverseconstantresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "service_primesservice",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_polarresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "service_primesservice_primesservice",
+      "target": "service_primesservice_primesservice_analyzeinverseconstant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "service_primesservice_primesservice",
+      "target": "service_primesservice_primesservice_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "service_primesservice_primesservice",
+      "target": "service_primesservice_primesservice_polarcoordenates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "service_primesservice_primesservice",
+      "target": "service_primesservice_primesservice_primediff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_primesservice_primesservice_primediff",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_diffresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_primesservice_primesservice_polarcoordenates",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_polarresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_primesservice_primesservice_chart",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_chartresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/PrimesService.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_primesservice_primesservice_analyzeinverseconstant",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_primesservice_java_inverseconstantresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "impl_primesserviceimpl_primesserviceimpl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "primesservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_chartresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_diffresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_inverseconstantresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_polarresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl",
+      "target": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl",
+      "target": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl",
+      "target": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl",
+      "target": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl",
+      "target": "primesservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_diffresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "util_util_util_formatmap"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "util_util_util_frequencycount"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_primediff",
+      "target": "util_util_util_pairwisedifferences"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_polarresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_polarcoordenates",
+      "target": "util_util_util_lista2puntos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_chartresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "target": "util_util_util_aproxjavier"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_chart",
+      "target": "util_util_util_gaussriemann"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "target": "src_main_java_es_jastxz_microprimenumbers_service_impl_primesserviceimpl_java_inverseconstantresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatean"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatebn"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/service/impl/PrimesServiceImpl.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "impl_primesserviceimpl_primesserviceimpl_analyzeinverseconstant",
+      "target": "util_aproximacioninverso_aproximacioninverso_getprimes"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso",
+      "target": "bigdecimal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso",
+      "target": "util_aproximacioninverso_aproximacioninverso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatebn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso",
+      "target": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso",
+      "target": "util_aproximacioninverso_aproximacioninverso_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "util_aproximacioninverso_aproximacioninverso_main",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso_main",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso_main",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatebn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso_main",
+      "target": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "util_aproximacioninverso_aproximacioninverso_getprimes",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "target": "util_aproximacioninverso_aproximacioninverso_getprimes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_aproximacioninverso_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_aproximacioninverso_aproximacioninverso_calculatean",
+      "target": "bigdecimal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatean"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/AproximacionInverso.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_aproximacioninverso_aproximacioninverso_calculatebn",
+      "target": "bigdecimal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest",
+      "target": "bigdecimal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "target": "util_aproximacioninverso_aproximacioninverso_calculatebn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/PrecisionMath.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "util_precisionmath",
+      "target": "util_precisionmath_precisionmath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/PrecisionMath.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "util_precisionmath_precisionmath",
+      "target": "util_precisionmath_precisionmath_precisionmath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "util_util",
+      "target": "hashmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "util_util",
+      "target": "point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "util_util",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "util_util",
+      "target": "util_util_util",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_aproxjavier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_chart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_cribaeratostenes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_formatmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_frequencycount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_gaussriemann",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_lista2puntos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "util_util_util",
+      "target": "util_util_util_pairwisedifferences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testconcurrentload",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testmemoryusage",
+      "target": "util_util_util_cribaeratostenes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "util_util_util_chart",
+      "target": "util_util_util_cribaeratostenes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_cribaeratostenes",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_cribaeratostenes",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "util_util_util_frequencycount",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_lista2puntos",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_pairwisedifferences",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_formatmap",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_frequencycount",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_lista2puntos",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_pairwisedifferences",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_integer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "util_util_util_lista2puntos",
+      "target": "point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_frequencycount",
+      "target": "hashmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "util_util_util_formatmap",
+      "target": "hashmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_formatmap",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "util_util_util_chart",
+      "target": "src_main_java_es_jastxz_microprimenumbers_util_util_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "util_util_util_aproxjavier",
+      "target": "util_util_util_gaussriemann",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "util_util_util_chart",
+      "target": "util_util_util_gaussriemann",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/microPrimeNumbers/util/Util.java",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "util_util_util_chart",
+      "target": "util_util_util_aproxjavier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "beforeeach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "microprimenumbers_callstest_callstest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_testbadrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_testpolarcoordinatessuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_testprimechartsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_testprimediffsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "microprimenumbers_callstest_callstest",
+      "target": "microprimenumbers_callstest_callstest_testserviceunavailable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_setup",
+      "target": "beforeeach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testpolarcoordinatessuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testpolarcoordinatessuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testbadrequest",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testprimechartsuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testprimediffsuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testserviceunavailable",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testbadrequest",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testprimechartsuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testprimediffsuccess",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/CallsTest.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_callstest_callstest_testserviceunavailable",
+      "target": "src_test_java_es_jastxz_microprimenumbers_callstest_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_performanceresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_printresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_testconcurrentload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_testmemoryusage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_testprimessearch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_teststresslimit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_printresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testsequentialperformance",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testconcurrentload",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testmemoryusage",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L134",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testprimessearch",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_teststresslimit",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testconcurrentload",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testmemoryusage",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L134",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_testprimessearch",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_teststresslimit",
+      "target": "src_test_java_es_jastxz_microprimenumbers_primeapplicationtests_java_displayname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_teststresslimit",
+      "target": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_measurecribaperformance",
+      "target": "performanceresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L168",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "microprimenumbers_primeapplicationtests_primeapplicationtests_printresult",
+      "target": "performanceresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/PrimeApplicationTests.java",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "microprimenumbers_primeapplicationtests_performanceresult",
+      "target": "microprimenumbers_primeapplicationtests_performanceresult_performanceresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest",
+      "target": "src_test_java_es_jastxz_microprimenumbers_util_aproximacioninversotest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest",
+      "target": "util_aproximacioninversotest_aproximacioninversotest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "util_aproximacioninversotest_aproximacioninversotest",
+      "target": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/microPrimeNumbers/util/AproximacionInversoTest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "util_aproximacioninversotest_aproximacioninversotest_testfirst10primes",
+      "target": "src_test_java_es_jastxz_microprimenumbers_util_aproximacioninversotest_java_test",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a78fa6b63bf8a410e0a0f1d4699246e75d552680"
+}
